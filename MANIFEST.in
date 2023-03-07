@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ampower_faceit *.css
+recursive-include ampower_faceit *.csv
+recursive-include ampower_faceit *.html
+recursive-include ampower_faceit *.ico
+recursive-include ampower_faceit *.js
+recursive-include ampower_faceit *.json
+recursive-include ampower_faceit *.md
+recursive-include ampower_faceit *.png
+recursive-include ampower_faceit *.py
+recursive-include ampower_faceit *.svg
+recursive-include ampower_faceit *.txt
+recursive-exclude ampower_faceit *.pyc
