@@ -1,0 +1,155 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-03-23 12:04:38.915405",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "company_logo",
+  "section_break_3",
+  "features",
+  "face_detection",
+  "check_in",
+  "leave_application",
+  "expense_application",
+  "issue_tracker",
+  "salary_slip",
+  "monthly_record",
+  "todo_list",
+  "timesheet",
+  "section_break_12",
+  "default_leave_approver",
+  "default_expense_approver",
+  "data_17"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Company",
+   "read_only": 1
+  },
+  {
+   "fieldname": "company_logo",
+   "fieldtype": "Data",
+   "label": "Company Logo",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "features",
+   "fieldtype": "Heading",
+   "label": "Features"
+  },
+  {
+   "fieldname": "face_detection",
+   "fieldtype": "Check",
+   "label": "Face Detection",
+   "read_only": 1
+  },
+  {
+   "fieldname": "check_in",
+   "fieldtype": "Check",
+   "label": "Check In",
+   "read_only": 1
+  },
+  {
+   "fieldname": "leave_application",
+   "fieldtype": "Check",
+   "label": "Leave Application",
+   "read_only": 1
+  },
+  {
+   "fieldname": "expense_application",
+   "fieldtype": "Check",
+   "label": "Expense Application",
+   "read_only": 1
+  },
+  {
+   "fieldname": "issue_tracker",
+   "fieldtype": "Check",
+   "label": "Issue Tracker",
+   "read_only": 1
+  },
+  {
+   "fieldname": "salary_slip",
+   "fieldtype": "Check",
+   "label": "Salary Slip",
+   "read_only": 1
+  },
+  {
+   "fieldname": "monthly_record",
+   "fieldtype": "Check",
+   "label": "Attendance Record",
+   "read_only": 1
+  },
+  {
+   "fieldname": "todo_list",
+   "fieldtype": "Check",
+   "label": "Todo List",
+   "read_only": 1
+  },
+  {
+   "fieldname": "timesheet",
+   "fieldtype": "Check",
+   "label": "Timesheet",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "default_leave_approver",
+   "fieldtype": "Data",
+   "label": "Default Leave Approver"
+  },
+  {
+   "fieldname": "default_expense_approver",
+   "fieldtype": "Data",
+   "label": "Default Expense Approver"
+  },
+  {
+   "fieldname": "data_17",
+   "fieldtype": "Data"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-04-26 15:20:08.253303",
+ "modified_by": "Administrator",
+ "module": "Ampower Faceit",
+ "name": "FaceIT Configuration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Employee",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
