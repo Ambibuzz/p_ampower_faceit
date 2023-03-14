@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-07-12 11:18:57.010643",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "location",
+  "latitudelongitude",
+  "is_active",
+  "range"
+ ],
+ "fields": [
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "latitudelongitude",
+   "fieldtype": "Data",
+   "label": "Latitude/Longitude  "
+  },
+  {
+   "default": "0",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  },
+  {
+   "fieldname": "range",
+   "fieldtype": "Data",
+   "label": "Range"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-07 16:59:03.387532",
+ "modified_by": "Administrator",
+ "module": "Ampower Faceit",
+ "name": "Location List",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

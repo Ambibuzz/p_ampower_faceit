@@ -1,0 +1,35 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-07-12 11:22:31.498880",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "image_location",
+  "captured_on"
+ ],
+ "fields": [
+  {
+   "fieldname": "image_location",
+   "fieldtype": "Attach",
+   "label": "Image Location"
+  },
+  {
+   "fieldname": "captured_on",
+   "fieldtype": "Datetime",
+   "label": "Captured On"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-07 16:58:48.976731",
+ "modified_by": "Administrator",
+ "module": "Ampower Faceit",
+ "name": "Face Data List",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
