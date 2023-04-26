@@ -3,10 +3,10 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "Ampower Faceit",
+			"module_name": "AmPower FaceIT",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
-			"label": _("Ampower Faceit")
+			"label": _("AmPower FaceIT")
 		}
 	]

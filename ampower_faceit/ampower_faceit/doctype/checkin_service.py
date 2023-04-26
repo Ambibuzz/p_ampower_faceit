@@ -1,4 +1,4 @@
-# Copyright (c) 2022, Ambibuzz Technologies LLP  and contributors
+# Copyright (c) 2023, Ambibuzz Technologies LLP  and contributors
 
 import frappe
 import json

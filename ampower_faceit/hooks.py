@@ -1,12 +1,12 @@
 from . import __version__ as app_version
 
 app_name = "ampower_faceit"
-app_title = "Ampower Faceit"
-app_publisher = "Amit Gandhi"
-app_description = "FaceIT"
+app_title = "Ampower FaceIT"
+app_publisher = "Ambibuzz Technologies LLP"
+app_description = "AmPower FaceIT"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "ithead@ambibuzz.com"
+app_email = "buzz.us@ambibuzz.com"
 app_license = "MIT"
 
 # Includes in <head>

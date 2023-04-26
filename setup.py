@@ -9,9 +9,9 @@ from ampower_faceit import __version__ as version
 setup(
 	name="ampower_faceit",
 	version=version,
-	description="FaceIT",
-	author="Amit Gandhi",
-	author_email="ithead@ambibuzz.com",
+	description="AmPower FaceIT",
+	author="Ambibuzz Technologies LLP",
+	author_email="buzz.us@ambibuzz.com",
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,

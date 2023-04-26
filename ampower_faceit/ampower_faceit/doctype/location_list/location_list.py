@@ -1,4 +1,4 @@
-# Copyright (c) 2023, Amit Gandhi and contributors
+# Copyright (c) 2023, Ambibuzz Technologies LLP and contributors
 # For license information, please see license.txt
 
 # import frappe
